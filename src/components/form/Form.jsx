@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './stylesForm.css';
 
 export default function Form({submitSearch}) {
   const [city, setCity] = useState('');
@@ -13,8 +14,8 @@ export default function Form({submitSearch}) {
         submitSearch(city);
   }
   return (
-    <div>
-      <form onSubmit={submit}>
+    <div >
+      <form onSubmit={submit} className="search">
       <input
         value={city}
         onChange={(e) => setCity(e.target.value)}

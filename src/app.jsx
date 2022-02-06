@@ -5,7 +5,7 @@ import useForecast from './hooks/useForecast.jsx'
 import Loader from './components/loader/Loader'
 import Erorr from './components/error/Erorr'
 import Forecast from './Forecast/Forecast'
-
+import './styles.css'
 
 const App = () =>
 {
@@ -16,8 +16,10 @@ const App = () =>
     }
 
     return(
-        <Fragment>
+        <Fragment className='fragment'>
+            <div className='divSearch'>
             <Header />
+            
             {!forecast && (
                 <div className='box'>
                 {!isLoading && <Form submitSearch={submit}/>}
@@ -28,6 +30,9 @@ const App = () =>
             ) }
             
             {forecast && <Forecast dataForecast={forecast}/>}
+
+            </div>
+            
         </Fragment>
     )
 }

@@ -1,0 +1,9 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    }
+.search input{
+    padding: 10px;
+    margin-bottom: 20px;
+} 
+

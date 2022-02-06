@@ -1,0 +1,22 @@
+html{
+    background-color: grey;
+}
+.divSearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box {
+    display: flex;
+    background-color: rgb(113, 128, 148);
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0 auto;
+    box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    max-width: 675px;
+    min-height: 300px;
+}

@@ -1,0 +1,17 @@
+.boxFore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+        border-radius: var(--main-border-radius);
+        -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+        background-color: var(--bg-color--card);
+        color: var(--main-text-color);
+        width: 85%;
+        max-width: 675px;
+        min-height: 300px;
+        background-color: rgb(113, 128, 148);
+    
+}
