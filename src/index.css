@@ -1,0 +1,11 @@
+:root{
+    --main-border-radius: 25px;
+}
+
+body{
+    background-color: grey;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}

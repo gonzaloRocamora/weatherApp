@@ -16,7 +16,7 @@ const App = () =>
     }
 
     return(
-        <Fragment className='fragment'>
+        <Fragment >
             <div className='divSearch'>
             <Header />
             

@@ -1,17 +1,26 @@
 .boxFore{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-        border-radius: var(--main-border-radius);
-        -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
-        box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
-        background-color: var(--bg-color--card);
-        color: var(--main-text-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 auto;
+
+        border-radius: 25px;
+        box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.7);
+       
         width: 85%;
-        max-width: 675px;
+        max-width: 650px;
         min-height: 300px;
-        background-color: rgb(113, 128, 148);
+        background-color: rgb(113, 128, 148, 0.6);
     
+}
+
+.boxFore .actualTemp{
+       width: 50%;
+}
+
+.upcomingDays img{
+        width: 30px;
+        height: 10%;
+
 }

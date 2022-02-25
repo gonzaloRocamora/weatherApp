@@ -1,22 +1,23 @@
 html{
-    background-color: grey;
+    
 }
 .divSearch{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-top: 20vh;
 }
 
 .box {
     display: flex;
-    background-color: rgb(113, 128, 148);
+    background-color: rgba(57, 126, 218, 0.55);
     align-items: center;
     justify-content: center;
-    
     margin: 0 auto;
-    box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+    border-radius: var(--main-border-radius);
+    box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.7);
     width: 85%;
-    max-width: 675px;
+    max-width: 650px;
+    
     min-height: 300px;
 }
